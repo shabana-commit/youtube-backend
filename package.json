@@ -2,10 +2,15 @@
   "name": "youtube-backend",
   "version": "1.0.0",
   "description": "A backend project to build a youtube backend",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev":"nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "shabana parveen",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
